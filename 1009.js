@@ -7,6 +7,5 @@ let salary = Number(lines[1]);
 let sales = Number(lines[2]);
 let commission = (15 * sales) / 100;
 
-let finalSalary = commission + salary
-console.log("TOTAL = " + finalSalary.toFixed(2))
-
+let finalSalary = commission + salary;
+console.log("TOTAL = R$ " + finalSalary.toFixed(2));

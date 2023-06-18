@@ -14,4 +14,4 @@ let finishItem2 = priceItem2 * qtnItem2;
 
 let finish = finishItem1 + finishItem2;
 
-console.log(finish)
+console.log("VALOR A PAGAR: R$"+finish.toFixed(2))
